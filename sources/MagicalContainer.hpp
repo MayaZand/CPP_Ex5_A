@@ -47,6 +47,8 @@ namespace ariel
             ~AscendingIterator() {}
 
             /* METHODS: */
+            
+
             AscendingIterator& operator=(const AscendingIterator& other);
 
             bool operator==(const AscendingIterator &other) const;
